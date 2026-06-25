@@ -1,1 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Y2 — Curated Fashion, Premium Technology, Modern Culture</title>
+<meta name="description" content="Y2 is a curated lifestyle showroom for luxury fashion, high-performance technology, hi-fi audio, gaming, and event systems. Chosen, not endlessly browsed." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ambient gradient field -->
+  <div class="ambient" aria-hidden="true">
+    <span class="blob blob--violet"></span>
+    <span class="blob blob--sky"></span>
+    <span class="blob blob--pink"></span>
+    <span class="blob blob--peri"></span>
+  </div>
+
+  <!-- floating glass nav -->
+  <header class="nav" id="top">
+    <a class="nav__logo chrome" href="#top" aria-label="Y2 home">Y2</a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#top">Home</a>
+      <a href="#collections">Collections</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn--solid nav__cta" href="#collections">Browse Collection</a>
+    <button class="nav__menu" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__inner">
+        <p class="eyebrow reveal">A digital showroom · est. 2025</p>
+        <h1 class="hero__title reveal">
+          Curated&nbsp;Fashion.<br />
+          <span class="accent-text">Premium&nbsp;Technology.</span><br />
+          Modern&nbsp;Culture.
+        </h1>
+        <p class="hero__lede reveal">
+          Y2 curates luxury fashion, high-performance technology, hi-fi audio, gaming
+          systems, and specialty equipment for people who value both design and performance.
+        </p>
+        <div class="hero__actions reveal">
+          <a class="btn btn--solid" href="#collections">Browse Collection</a>
+          <a class="btn btn--ghost" href="#sourcing">Source Something</a>
+        </div>
+        <ul class="hero__meta reveal" aria-label="What we cover">
+          <li>Fashion</li><li>Technology</li><li>Audio</li>
+          <li>Gaming</li><li>DJ &amp; Event</li>
+        </ul>
+      </div>
+      <a class="hero__scroll" href="#collections" aria-label="Scroll to collections">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- FEATURED CATEGORIES -->
+    <section class="section categories" id="collections">
+      <div class="section__head">
+        <p class="eyebrow">Collections / 06</p>
+        <h2 class="section__title">Six worlds, one taste level.</h2>
+      </div>
+      <div class="cat-grid">
+
+        <article class="card cat">
+          <span class="cat__icon icon-fashion" aria-hidden="true"></span>
+          <h3>Luxury Fashion</h3>
+          <p>Designer pieces, archival fashion, considered streetwear.</p>
+          <span class="cat__go">Explore →</span>
+        </article>
+
+        <article class="card cat">
+          <span class="cat__icon icon-tech" aria-hidden="true"></span>
+          <h3>Technology</h3>
+          <p>Workstation PCs, laptops, and premium electronics.</p>
+          <span class="cat__go">Explore →</span>
+        </article>
+
+        <article class="card cat">
+          <span class="cat__icon icon-gaming" aria-hidden="true"></span>
+          <h3>Gaming</h3>
+          <p>Consoles, handhelds, and the accessories worth owning.</p>
+          <span class="cat__go">Explore →</span>
+        </article>
+
+        <article class="card cat">
+          <span class="cat__icon icon-audio" aria-hidden="true"></span>
+          <h3>Audio</h3>
+          <p>Hi-fi systems, speakers, and reference headphones.</p>
+          <span class="cat__go">Explore →</span>
+        </article>
+
+        <article class="card cat">
+          <span class="cat__icon icon-dj" aria-hidden="true"></span>
+          <h3>DJ &amp; Event</h3>
+          <p>Controllers, mixers, and PA systems for the room.</p>
+          <span class="cat__go">Explore →</span>
+        </article>
+
+        <article class="card cat">
+          <span class="cat__icon icon-special" aria-hidden="true"></span>
+          <h3>Special Finds</h3>
+          <p>Rare products and limited items, sourced on request.</p>
+          <span class="cat__go">Explore →</span>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- WHY Y2 -->
+    <section class="section why" id="about">
+      <div class="why__collage" aria-hidden="true">
+        <span class="tile tile--a"><i class="icon-fashion"></i><em>Archive</em></span>
+        <span class="tile tile--b"><i class="icon-tech"></i><em>MacBook</em></span>
+        <span class="tile tile--c"><i class="icon-audio"></i><em>Sony</em></span>
+        <span class="tile tile--d"><i class="icon-gaming"></i><em>Console</em></span>
+        <span class="tile tile--e"><i class="icon-special"></i><em>Accessories</em></span>
+        <span class="tile tile--f"><i class="icon-dj"></i><em>Controller</em></span>
+      </div>
+      <div class="why__copy">
+        <p class="eyebrow">Why Y2</p>
+        <h2 class="section__title">Curated, not crowded.</h2>
+        <p>
+          Most stores win by listing everything. We win by listing almost nothing.
+          Every piece here earns its place — sourced because it's worth owning, not
+          because it fills a catalog.
+        </p>
+        <p>
+          Fashion, technology, sound, and culture sit side by side, chosen with the
+          same eye. The result is a shorter list, and a better one.
+        </p>
+        <a class="btn btn--ghost" href="#contact">Meet the curation →</a>
+      </div>
+    </section>
+
+    <!-- FEATURED PRODUCTS -->
+    <section class="section products">
+      <div class="section__head section__head--row">
+        <div>
+          <p class="eyebrow">Featured / In stock</p>
+          <h2 class="section__title">On the floor right now.</h2>
+        </div>
+        <div class="products__nav">
+          <button class="round" data-scroll="prev" aria-label="Previous products">←</button>
+          <button class="round" data-scroll="next" aria-label="Next products">→</button>
+        </div>
+      </div>
+
+      <div class="product-rail" id="rail">
+        <article class="card product">
+          <div class="product__shot shot--violet"><span class="icon-fashion"></span></div>
+          <div class="product__row"><h3>Archival Wool Overcoat</h3><span class="price">$1,240</span></div>
+          <p class="product__sub">Fashion · Single piece · Restored</p>
+        </article>
+
+        <article class="card product">
+          <div class="product__shot shot--sky"><span class="icon-tech"></span></div>
+          <div class="product__row"><h3>14&Prime; Workstation Laptop</h3><span class="price">$2,890</span></div>
+          <p class="product__sub">Technology · Configured to order</p>
+        </article>
+
+        <article class="card product">
+          <div class="product__shot shot--pink"><span class="icon-audio"></span></div>
+          <div class="product__row"><h3>Reference Headphones</h3><span class="price">$560</span></div>
+          <p class="product__sub">Audio · Open-back · Hi-fi</p>
+        </article>
+
+        <article class="card product">
+          <div class="product__shot shot--peri"><span class="icon-gaming"></span></div>
+          <div class="product__row"><h3>Handheld, Limited Run</h3><span class="price">$430</span></div>
+          <p class="product__sub">Gaming · 2 in stock</p>
+        </article>
+
+        <article class="card product">
+          <div class="product__shot shot--cobalt"><span class="icon-dj"></span></div>
+          <div class="product__row"><h3>4-Channel DJ Controller</h3><span class="price">$1,090</span></div>
+          <p class="product__sub">DJ &amp; Event · Pro tier</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SOURCING -->
+    <section class="section sourcing" id="sourcing">
+      <div class="card sourcing__panel">
+        <p class="eyebrow">Personal sourcing</p>
+        <h2 class="sourcing__title">Looking for something specific?</h2>
+        <p class="sourcing__lede">
+          A rare jacket. A workstation laptop. A console, a hi-fi system, a full event rig.
+          Tell us what you're after and we'll find it — hard-to-find is the point.
+        </p>
+        <a class="btn btn--solid btn--lg" href="#contact">Request Sourcing</a>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section services" id="services">
+      <div class="section__head">
+        <p class="eyebrow">Services / 07</p>
+        <h2 class="section__title">Beyond the shelf.</h2>
+      </div>
+      <div class="svc-grid">
+        <article class="card svc"><span class="svc__dot"></span><h3>Luxury Sourcing</h3><p>Tracking down archival and limited fashion.</p></article>
+        <article class="card svc"><span class="svc__dot"></span><h3>Technology Procurement</h3><p>The right hardware, specified and supplied.</p></article>
+        <article class="card svc"><span class="svc__dot"></span><h3>PC Builds</h3><p>Custom workstations and gaming systems.</p></article>
+        <article class="card svc"><span class="svc__dot"></span><h3>Hi-Fi Consultation</h3><p>Rooms tuned and systems matched to taste.</p></article>
+        <article class="card svc"><span class="svc__dot"></span><h3>Gaming Setups</h3><p>Complete setups, from handheld to flagship.</p></article>
+        <article class="card svc"><span class="svc__dot"></span><h3>Event &amp; DJ Systems</h3><p>PA, mixers, and controllers for the night.</p></article>
+        <article class="card svc"><span class="svc__dot"></span><h3>Business Procurement</h3><p>Fleet and fit-out, handled end to end.</p></article>
+      </div>
+    </section>
+
+    <!-- PHILOSOPHY -->
+    <section class="section philosophy">
+      <p class="eyebrow">Philosophy</p>
+      <blockquote class="philosophy__quote">
+        We believe products should be <em>chosen</em> — not endlessly browsed.
+      </blockquote>
+      <p class="philosophy__copy">
+        Y2 is a curated lifestyle platform where fashion, technology, and culture
+        intersect. One point of view, applied across every category, so the things
+        you find here already feel like they belong together.
+      </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="card contact__panel">
+        <h2 class="contact__title">Let's find it together.</h2>
+        <div class="contact__rows">
+          <a class="contact__line" href="mailto:hello@y2.studio">
+            <span class="contact__label">Email</span>
+            <span class="contact__val">hello@y2.studio</span>
+          </a>
+          <a class="contact__line" href="https://instagram.com" target="_blank" rel="noopener">
+            <span class="contact__label">Instagram</span>
+            <span class="contact__val">@y2.studio</span>
+          </a>
+        </div>
+        <a class="btn btn--solid btn--lg" href="mailto:hello@y2.studio?subject=Sourcing%20request">Request Sourcing</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span class="chrome footer__logo">Y2</span>
+    <p>Chosen, not browsed.</p>
+    <p class="footer__fine">© 2025 Y2 Studio — A curated lifestyle showroom.</p>
+  </footer>
+
+  <script>
+    // sticky nav state
+    const nav = document.querySelector('.nav');
+    const onScroll = () => nav.classList.toggle('is-stuck', window.scrollY > 24);
+    onScroll();
+    addEventListener('scroll', onScroll, { passive: true });
+
+    // mobile menu
+    const menu = document.querySelector('.nav__menu');
+    menu.addEventListener('click', () => {
+      const open = nav.classList.toggle('is-open');
+      menu.setAttribute('aria-expanded', open);
+    });
+    document.querySelectorAll('.nav__links a, .nav__cta').forEach(a =>
+      a.addEventListener('click', () => {
+        nav.classList.remove('is-open');
+        menu.setAttribute('aria-expanded', 'false');
+      })
+    );
+
+    // product rail controls
+    const rail = document.getElementById('rail');
+    document.querySelectorAll('[data-scroll]').forEach(btn =>
+      btn.addEventListener('click', () => {
+        const step = Math.min(rail.clientWidth * 0.8, 360);
+        rail.scrollBy({ left: btn.dataset.scroll === 'next' ? step : -step, behavior: 'smooth' });
+      })
+    );
+
+    // scroll reveals
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal, .card, .section__head, .philosophy__quote, .why__copy, .why__collage')
+      .forEach(el => { el.classList.add('reveal'); io.observe(el); });
+  </script>
+</body>
+</html>
 
